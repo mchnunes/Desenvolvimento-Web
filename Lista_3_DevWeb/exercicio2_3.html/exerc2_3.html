@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>What's up bro</title>
+    </head>
+
+    <body>
+        <img src="img/Filmes-de-Comedia-Netflix_1.jpg"
+        width = "600"
+        height = "300"/>
+    </br>
+        <h1>Seu Filme Favorito</h1>
+    </body>
+
+    <script>
+        var filme = {
+            nomeFilme: prompt("Digite o nome do seu filme favorito: "),
+            anoLançamento: prompt("Digite o ano de lançamento do seu filme favorito: "),
+            protagonistaFilme: prompt("Digite o nome do(a) protagonista do seu filme favorito:")
+        }
+        var database = []
+        database.push(filme)
+        document.writeln("<strong>Nome do seu filme favorito: ", database[0].nomeFilme)
+        document.writeln("<br>Ano de lançamento do filme: ", database[0].anoLançamento)
+        document.writeln("<br>Protagonista Do filme digitado: ", database[0].protagonistaFilme, "</strong>")
+     </script>
+</html>
+
+
